@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.post{
+    margin:auto;
+    margin-top: 5%;
+    background-color: #fdfdfd;
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border: 1px #a7a7a7 solid;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+img {
+    width: 500px;
+}
+
+h4, p{
+    font-family: Lato;
+    color: #333333;
+}
+
+.fa-html5, .fa-ellipsis-v{
+    font-size: 32px;
+    color: #333333;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+   align-items: flex-start;
+    padding: 16px;
+    align-items: center;
+}
+
+.fa-ellipsis-v{
+    text-align: right;
+ 
+    color: #333333;
+}
+
+.htmlIcon{
+    padding-right: 4px;
+}
+
+.right{
+    width: 300px;
+    padding-left: 290px;
+}
+
+.left{
+    width: 300px;
+}
+
+.fa-heart, .fa-comment, .fa-paper-plane, .fa-bookmark{
+    font-size: 30px;
+    color: #666666;
+}
+
+.fa-bookmark{
+    text-align: right;
+}
+
+.icons{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    padding: 16px;
+}
+
+.iconosIzquierda{
+    justify-content: flex-start;
+}
+
+.iconoDerecha{
+    width: 340px;
+    padding-left: 340px;
+
+}
+
+.text {
+    padding: 16px;
+}
